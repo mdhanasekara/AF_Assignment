@@ -28,6 +28,9 @@ const Home = () => {
     }else if (userType === 'student') {
       let path1 = `/studentNavBar`; 
       navigate(path1);  
+    }else if (userType === 'supervisor') {
+      let path1 = `/supervisorNavBar`; 
+      navigate(path1);  
     }
   }
 

@@ -20,7 +20,7 @@ router.post('/markingSchema/save', (req,res) => {
 
 //get data
 router.get('/allMarkingSchema', (req, res) => {
-    newMarkingSchema.find().exec((err,markingschema)=> {
+    MarkingSchema.find().exec((err,markingschema)=> {
         if(err){
             return res.status(400).json({
                 error:err

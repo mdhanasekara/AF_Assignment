@@ -5,9 +5,14 @@ const submissionTypeRoutes = require('./routes/submissionTypeRoute');
 const markingSchemaRoutes = require('./routes/markingSchemaRoute');
 const studentGroupRoute = require('./routes/studentGroupsRoute');
 const registerTopicRoute = require('./routes/registerTopicRoute');
+const AcceptedTopicRoute = require('./routes/AccreptedTopicsRoute');
+
 const requestSupervisor = require('./routes/requestSupervisorRoute');
 const requestCoSupervisor = require('./routes/requestCoSupervisorRoute');
 const register = require('./routes/registerUserRoute');
+const pannel = require('./routes/PannelRoute');
+const markingSchema = require('./routes/markingSchemaRoute');
+
 const multer = require('multer');
 
 
@@ -19,8 +24,12 @@ app.use(markingSchemaRoutes);
 app.use(studentGroupRoute);
 app.use(registerTopicRoute);
 app.use(requestSupervisor);
+app.use(AcceptedTopicRoute);
+app.use(markingSchema);
+
 app.use(requestCoSupervisor);
 app.use(register);
+app.use(pannel);
 
 //file upload
 // app.use(express.static('public'));

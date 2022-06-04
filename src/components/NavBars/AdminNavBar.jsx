@@ -23,6 +23,8 @@ const AdminNavBar = () => {
                 <P to='/AllocatePanel'>Allocate Panel Members</P>
                 <P to='/CreateMaarkingScheme'>Create Marking Scheme</P>
                 <P to='/UploadAdmin'>Upload</P>
+                <P to="/">Logout</P>
+
             </Toolbar>
         </Header>  
       )

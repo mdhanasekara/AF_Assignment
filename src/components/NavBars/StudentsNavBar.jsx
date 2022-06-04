@@ -22,8 +22,10 @@ const StudentsNavBar = () => {
                 <P to="/registerTopic">Register Topic</P>
                  <P to="/requestSupervisor">Request Supervisor</P>
                 <P to="/requestCoSupervisor">Request co-Supervisor</P>
-                {/*<P>Upload Documents</P>
-                <P>Download Templates</P> */}
+                <P to="/UploadStudent">Upload Documents</P>
+                <P to="/">Logout</P>
+
+                {/*<P>Download Templates</P> */}
             </Toolbar>
         </Header>  
       )

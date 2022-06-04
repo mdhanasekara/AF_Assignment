@@ -33,20 +33,6 @@ router.get('/allUsers', (req, res) => {
     });
 });
 
-router.get('/allUsers/:id', (req, res) => {
-    Register.findById().exec((err,users)=> {
-        if(err){
-            return res.status(400).json({
-                error:err
-            });
-        }
-        return res.status(200).json({
-            success: true,
-            existingUsers: users
-        });
-    });
-});
-
 //update
 router.put('/users/update/:id', (req,res) => {
     Register.findByIdAndUpdate(
