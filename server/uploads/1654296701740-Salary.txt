@@ -1,0 +1,16 @@
+salary				20000
+deposite us	= 5000
+give parents    = 5000
+for house goods = 3000
+phone bill	= 1000
+		----------
+		
+money in hand	= 6000
+
+
+goods for house
+----------------
+money			3000
+eggs	65	1700
+pala	4	 400
+friuts		 900	
